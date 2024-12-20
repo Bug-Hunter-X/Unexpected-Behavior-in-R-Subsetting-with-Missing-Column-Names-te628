@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in R related to subsetting data frames using character vectors of column names.  When a specified column name does not exist, R's behavior may lead to unexpected results due to type coercion. The `bug.R` file showcases the problematic code, while `bugSolution.R` provides a robust solution.
